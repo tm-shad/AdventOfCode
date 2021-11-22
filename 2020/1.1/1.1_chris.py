@@ -1,6 +1,10 @@
 from time import perf_counter
+from pathlib import Path
 
-with open(r'C:\Users\chayd\Documents\Projects\AdventOfCode\AoC2021\2020\1.1\input_chris.txt', 'r') as f:
+
+INPUT_FILE = str(Path(__file__).parent.joinpath("input_chris.txt").resolve())
+
+with open(INPUT_FILE, 'r') as f:
     input_text = f.readlines()
 in_list = [int(num.strip()) for num in input_text]
 
