@@ -13,17 +13,15 @@ time_start = perf_counter()
 print(in_list)
 x = 0
 y = 0
-aim = 0
 
 for (instruction, val) in in_list:
     val = int(val)
     if instruction == 'forward':
         x += val
-        y += aim*val
     if instruction == 'down':
-        aim += val
+        y += val
     if instruction == 'up':
-        aim -= val
+        y -= val
         
 time_end = perf_counter()
 
