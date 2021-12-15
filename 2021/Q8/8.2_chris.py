@@ -50,14 +50,16 @@ for item in in_list:
                 numbers[0] = key
             else:
                 numbers[9] = key
-                
-    new_int = []
+
+    new_int = ''
     for val in vals:
         for k, v in numbers.items():
             if val == v:
-                new_int.append(k)
+                # new_int.append(k)
+                new_int += str(k)
                 continue
-    new_int = 1000*new_int[0]+100*new_int[1]+10*new_int[2]+1*new_int[3]
+    # new_int = 1000*new_int[0]+100*new_int[1]+10*new_int[2]+1*new_int[3]
+    new_int = int(new_int)
     counter += new_int
 
 print(counter)
