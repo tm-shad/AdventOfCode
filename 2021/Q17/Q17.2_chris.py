@@ -2,6 +2,9 @@ from pathlib import Path
 from collections import Counter, defaultdict
 from copy import copy
 import math
+from time import perf_counter
+
+time0 = perf_counter()
 
 #input_path = Path(f'{__file__}/../input_example.txt').resolve()
 input_path = Path(f'{__file__}/../input_chris.txt').resolve()
@@ -32,7 +35,7 @@ print(max_height)
 # Brute Force
 vel_count = 0
 for x_init in range(math.floor(math.sqrt(xmin)//1), xmax+1):
-    for y_init in range(ymin, abs(ymin)):
+    for y_init in range(ymin, max((abs(ymin), ymax))):
         x_vel = x_init
         y_vel = y_init
         x_pos = 0
@@ -49,5 +52,7 @@ for x_init in range(math.floor(math.sqrt(xmin)//1), xmax+1):
 
 print('Vel_count', vel_count)
 
+time1 = perf_counter()
 
+print(time1-time0)
 
