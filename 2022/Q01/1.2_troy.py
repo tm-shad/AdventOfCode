@@ -17,10 +17,15 @@ def main(input_path: Path):
     in_str = read_file(input_path)
     elves = in_str.split("\n\n")
 
-    c_elves = [sum(int(i) for i in s.split("\n")) for s in elves]
+    c_elves = [
+        (idx, sum(int(i) for i in s.split("\n")))
+        for idx, s in zip(range(len(elves)), elves)
+    ]
     i = np.argmax(c_elves)
 
-    return i + 1, c_elves[i]
+    fin_elves = sorted(c_elves, key=lambda a: -a[1])[0:3]
+
+    return sum(a[1] for a in fin_elves)
 
 
 if __name__ == "__main__":
