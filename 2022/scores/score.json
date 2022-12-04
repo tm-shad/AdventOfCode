@@ -1,62 +1,11 @@
 {
-    "event": "2022",
     "members": {
-        "2586788": {
-            "local_score": 84,
-            "stars": 2,
-            "last_star_ts": 1670037300,
-            "name": "Krisha Nagarajan",
-            "id": 2586788,
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "star_index": 568196,
-                        "get_star_ts": 1670036922
-                    },
-                    "2": {
-                        "get_star_ts": 1670037300,
-                        "star_index": 568571
-                    }
-                }
-            }
-        },
-        "1525213": {
-            "completion_day_level": {},
-            "global_score": 0,
-            "local_score": 0,
-            "last_star_ts": 0,
-            "id": 1525213,
-            "stars": 0,
-            "name": "Clinton Greer"
-        },
-        "2246852": {
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "star_index": 240625,
-                        "get_star_ts": 1669938312
-                    },
-                    "2": {
-                        "get_star_ts": 1669940462,
-                        "star_index": 244130
-                    }
-                }
-            },
-            "name": "Selvi Manoharan",
-            "last_star_ts": 1669940462,
-            "stars": 2,
-            "id": 2246852,
-            "local_score": 78
-        },
         "1576608": {
-            "local_score": 251,
-            "last_star_ts": 1669958892,
-            "id": 1576608,
-            "stars": 4,
-            "name": "Morgan Wood",
+            "local_score": 397,
+            "last_star_ts": 1670045195,
             "global_score": 0,
+            "id": 1576608,
+            "name": "Morgan Wood",
             "completion_day_level": {
                 "2": {
                     "1": {
@@ -64,53 +13,66 @@
                         "star_index": 277992
                     },
                     "2": {
-                        "get_star_ts": 1669958892,
-                        "star_index": 284541
+                        "star_index": 284541,
+                        "get_star_ts": 1669958892
+                    }
+                },
+                "3": {
+                    "2": {
+                        "star_index": 590648,
+                        "get_star_ts": 1670045195
+                    },
+                    "1": {
+                        "star_index": 582118,
+                        "get_star_ts": 1670044464
                     }
                 },
                 "1": {
                     "2": {
-                        "get_star_ts": 1669876347,
-                        "star_index": 28966
+                        "star_index": 28966,
+                        "get_star_ts": 1669876347
                     },
                     "1": {
                         "get_star_ts": 1669875959,
                         "star_index": 27757
                     }
                 }
-            }
+            },
+            "stars": 6
         },
-        "2341970": {
-            "global_score": 0,
+        "1524895": {
+            "id": 1524895,
+            "name": "Peet Vermeulen",
+            "stars": 0,
+            "completion_day_level": {},
+            "local_score": 0,
+            "last_star_ts": 0,
+            "global_score": 0
+        },
+        "2314415": {
             "completion_day_level": {
                 "1": {
-                    "1": {
-                        "star_index": 250613,
-                        "get_star_ts": 1669945171
-                    },
                     "2": {
-                        "star_index": 251703,
-                        "get_star_ts": 1669946082
-                    }
-                },
-                "2": {
-                    "2": {
-                        "star_index": 293766,
-                        "get_star_ts": 1669960025
+                        "get_star_ts": 1669876441,
+                        "star_index": 29217
                     },
                     "1": {
-                        "get_star_ts": 1669959581,
-                        "star_index": 290669
+                        "get_star_ts": 1669876354,
+                        "star_index": 28981
                     }
                 }
             },
-            "local_score": 198,
-            "last_star_ts": 1669960025,
-            "stars": 4,
-            "name": "Abhinav Kumar Singh",
-            "id": 2341970
+            "stars": 2,
+            "id": 2314415,
+            "name": null,
+            "global_score": 0,
+            "last_star_ts": 1669876441,
+            "local_score": 120
         },
         "2499415": {
+            "global_score": 0,
+            "last_star_ts": 1670041743,
+            "local_score": 30,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -119,52 +81,21 @@
                     }
                 }
             },
-            "global_score": 0,
-            "id": 2499415,
-            "last_star_ts": 1670041743,
             "stars": 1,
-            "name": "Michael Collins",
-            "local_score": 30
-        },
-        "2340867": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 2340867,
-            "name": "Anthony Guo",
-            "local_score": 0
-        },
-        "2315055": {
-            "last_star_ts": 1669874723,
-            "stars": 2,
-            "id": 2315055,
-            "name": "Jamie Thain",
-            "local_score": 126,
-            "completion_day_level": {
-                "1": {
-                    "2": {
-                        "star_index": 23978,
-                        "get_star_ts": 1669874723
-                    },
-                    "1": {
-                        "get_star_ts": 1669873330,
-                        "star_index": 19243
-                    }
-                }
-            },
-            "global_score": 0
+            "id": 2499415,
+            "name": "Michael Collins"
         },
         "2338773": {
+            "stars": 6,
             "completion_day_level": {
                 "1": {
-                    "2": {
-                        "get_star_ts": 1669900800,
-                        "star_index": 116678
-                    },
                     "1": {
                         "star_index": 114392,
                         "get_star_ts": 1669900113
+                    },
+                    "2": {
+                        "get_star_ts": 1669900800,
+                        "star_index": 116678
                     }
                 },
                 "2": {
@@ -173,455 +104,38 @@
                         "get_star_ts": 1669962142
                     },
                     "1": {
-                        "star_index": 299144,
-                        "get_star_ts": 1669960961
-                    }
-                }
-            },
-            "global_score": 0,
-            "local_score": 210,
-            "name": "Jonathan Li",
-            "last_star_ts": 1669962142,
-            "stars": 4,
-            "id": 2338773
-        },
-        "2500094": {
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "star_index": 242380,
-                        "get_star_ts": 1669939362
-                    },
-                    "2": {
-                        "get_star_ts": 1669939940,
-                        "star_index": 243326
-                    }
-                }
-            },
-            "global_score": 0,
-            "id": 2500094,
-            "last_star_ts": 1669939940,
-            "stars": 2,
-            "name": "Sadeka Islam",
-            "local_score": 77
-        },
-        "1575049": {
-            "completion_day_level": {},
-            "global_score": 0,
-            "local_score": 0,
-            "name": "sundaram thangaraj",
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 1575049
-        },
-        "2314333": {
-            "last_star_ts": 0,
-            "name": "Charles Wang",
-            "stars": 0,
-            "id": 2314333,
-            "local_score": 0,
-            "global_score": 0,
-            "completion_day_level": {}
-        },
-        "2314794": {
-            "name": "Mercedeh Edrisi Sormoli",
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 2314794,
-            "local_score": 0,
-            "completion_day_level": {},
-            "global_score": 0
-        },
-        "2314354": {
-            "local_score": 257,
-            "name": "Shaun De Roza",
-            "last_star_ts": 1669960587,
-            "stars": 4,
-            "id": 2314354,
-            "completion_day_level": {
-                "1": {
-                    "2": {
-                        "star_index": 16069,
-                        "get_star_ts": 1669872601
-                    },
-                    "1": {
-                        "get_star_ts": 1669872506,
-                        "star_index": 15577
-                    }
-                },
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669960413,
-                        "star_index": 296133
-                    },
-                    "2": {
-                        "star_index": 297157,
-                        "get_star_ts": 1669960587
-                    }
-                }
-            },
-            "global_score": 0
-        },
-        "2347680": {
-            "stars": 0,
-            "last_star_ts": 0,
-            "id": 2347680,
-            "name": "Ramya Pradeep",
-            "local_score": 0,
-            "completion_day_level": {},
-            "global_score": 0
-        },
-        "2174423": {
-            "local_score": 240,
-            "last_star_ts": 1669957890,
-            "id": 2174423,
-            "stars": 4,
-            "name": "Anton Bubna-Litic",
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669957784,
-                        "star_index": 268591
-                    },
-                    "2": {
-                        "get_star_ts": 1669957890,
-                        "star_index": 270246
-                    }
-                },
-                "1": {
-                    "2": {
-                        "get_star_ts": 1669904588,
-                        "star_index": 130137
-                    },
-                    "1": {
-                        "star_index": 129288,
-                        "get_star_ts": 1669904373
-                    }
-                }
-            }
-        },
-        "2317871": {
-            "completion_day_level": {},
-            "global_score": 0,
-            "local_score": 0,
-            "last_star_ts": 0,
-            "stars": 0,
-            "name": "Michi Aoki",
-            "id": 2317871
-        },
-        "2499469": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "local_score": 0,
-            "stars": 0,
-            "last_star_ts": 0,
-            "name": "Dannie Ong",
-            "id": 2499469
-        },
-        "2459724": {
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "star_index": 174236,
-                        "get_star_ts": 1669916594
-                    },
-                    "2": {
-                        "star_index": 174396,
-                        "get_star_ts": 1669916640
-                    }
-                },
-                "2": {
-                    "2": {
-                        "star_index": 547673,
-                        "get_star_ts": 1670022053
-                    },
-                    "1": {
-                        "star_index": 546552,
-                        "get_star_ts": 1670021591
-                    }
-                }
-            },
-            "local_score": 179,
-            "stars": 4,
-            "last_star_ts": 1670022053,
-            "id": 2459724,
-            "name": "Wen Dou"
-        },
-        "2363869": {
-            "local_score": 224,
-            "stars": 4,
-            "last_star_ts": 1669961685,
-            "id": 2363869,
-            "name": "PeetV",
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "2": {
-                        "star_index": 302569,
-                        "get_star_ts": 1669961685
-                    },
-                    "1": {
-                        "star_index": 298826,
-                        "get_star_ts": 1669960901
-                    }
-                },
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669884248,
-                        "star_index": 56367
-                    },
-                    "2": {
-                        "star_index": 58490,
-                        "get_star_ts": 1669884726
-                    }
-                }
-            }
-        },
-        "1511480": {
-            "local_score": 445,
-            "last_star_ts": 1670044104,
-            "name": "Christopher Fowler",
-            "stars": 6,
-            "id": 1511480,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "star_index": 268479,
-                        "get_star_ts": 1669957776
-                    },
-                    "2": {
-                        "star_index": 271641,
-                        "get_star_ts": 1669957972
+                        "get_star_ts": 1669960961,
+                        "star_index": 299144
                     }
                 },
                 "3": {
-                    "2": {
-                        "star_index": 577450,
-                        "get_star_ts": 1670044104
-                    },
                     "1": {
-                        "get_star_ts": 1670043935,
-                        "star_index": 575684
-                    }
-                },
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669871026,
-                        "star_index": 0
+                        "star_index": 612815,
+                        "get_star_ts": 1670049462
                     },
                     "2": {
-                        "star_index": 5916,
-                        "get_star_ts": 1669871349
+                        "star_index": 615201,
+                        "get_star_ts": 1670050185
                     }
                 }
             },
-            "global_score": 0
-        },
-        "1702065": {
-            "stars": 4,
-            "last_star_ts": 1669958514,
-            "name": "Jason Kong",
-            "id": 1702065,
-            "local_score": 276,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "star_index": 274912,
-                        "get_star_ts": 1669958173
-                    },
-                    "2": {
-                        "star_index": 279939,
-                        "get_star_ts": 1669958514
-                    }
-                },
-                "1": {
-                    "1": {
-                        "star_index": 13043,
-                        "get_star_ts": 1669872075
-                    },
-                    "2": {
-                        "star_index": 14291,
-                        "get_star_ts": 1669872273
-                    }
-                }
-            },
-            "global_score": 0
-        },
-        "2345993": {
-            "last_star_ts": 1669969508,
-            "name": "Sanoj Marutholickal George",
-            "stars": 4,
-            "id": 2345993,
-            "local_score": 197,
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669886332,
-                        "star_index": 65277
-                    },
-                    "2": {
-                        "star_index": 69654,
-                        "get_star_ts": 1669887334
-                    }
-                },
-                "2": {
-                    "2": {
-                        "star_index": 340391,
-                        "get_star_ts": 1669969508
-                    },
-                    "1": {
-                        "get_star_ts": 1669969095,
-                        "star_index": 338033
-                    }
-                }
-            },
-            "global_score": 0
-        },
-        "2314441": {
+            "id": 2338773,
+            "name": "Jonathan Li",
             "global_score": 0,
-            "completion_day_level": {},
-            "local_score": 0,
-            "last_star_ts": 0,
-            "name": "Ting Chen",
-            "stars": 0,
-            "id": 2314441
-        },
-        "2314332": {
-            "stars": 2,
-            "last_star_ts": 1669938799,
-            "id": 2314332,
-            "name": "Emma Callaghan",
-            "local_score": 81,
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "2": {
-                        "get_star_ts": 1669938799,
-                        "star_index": 241485
-                    },
-                    "1": {
-                        "get_star_ts": 1669938703,
-                        "star_index": 241303
-                    }
-                }
-            }
-        },
-        "2506109": {
-            "local_score": 0,
-            "id": 2506109,
-            "last_star_ts": 0,
-            "stars": 0,
-            "name": "Jeremy Hurter",
-            "global_score": 0,
-            "completion_day_level": {}
-        },
-        "1525025": {
-            "id": 1525025,
-            "last_star_ts": 0,
-            "stars": 0,
-            "name": "Karthik Vankadara",
-            "local_score": 0,
-            "global_score": 0,
-            "completion_day_level": {}
-        },
-        "2314584": {
-            "stars": 4,
-            "last_star_ts": 1669961902,
-            "id": 2314584,
-            "name": "James Edenborough",
-            "local_score": 203,
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "star_index": 201141,
-                        "get_star_ts": 1669924555
-                    },
-                    "2": {
-                        "get_star_ts": 1669924660,
-                        "star_index": 201522
-                    }
-                },
-                "2": {
-                    "2": {
-                        "get_star_ts": 1669961902,
-                        "star_index": 303542
-                    },
-                    "1": {
-                        "star_index": 302371,
-                        "get_star_ts": 1669961641
-                    }
-                }
-            }
-        },
-        "2351680": {
-            "local_score": 78,
-            "last_star_ts": 1669940039,
-            "stars": 2,
-            "id": 2351680,
-            "name": "Behnam Karimi",
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "2": {
-                        "get_star_ts": 1669940039,
-                        "star_index": 243485
-                    },
-                    "1": {
-                        "get_star_ts": 1669938631,
-                        "star_index": 241164
-                    }
-                }
-            }
-        },
-        "2357964": {
-            "stars": 4,
-            "last_star_ts": 1669963867,
-            "id": 2357964,
-            "name": "Nikhil Kankarla",
-            "local_score": 210,
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "2": {
-                        "get_star_ts": 1669963867,
-                        "star_index": 312330
-                    },
-                    "1": {
-                        "star_index": 308033,
-                        "get_star_ts": 1669962891
-                    }
-                },
-                "1": {
-                    "1": {
-                        "star_index": 43637,
-                        "get_star_ts": 1669880951
-                    },
-                    "2": {
-                        "star_index": 61022,
-                        "get_star_ts": 1669885319
-                    }
-                }
-            }
+            "last_star_ts": 1670050185,
+            "local_score": 338
         },
         "1574657": {
-            "id": 1574657,
-            "last_star_ts": 1669963018,
-            "stars": 4,
-            "name": "Sam Xia",
-            "local_score": 250,
-            "global_score": 0,
+            "stars": 6,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 7881,
-                        "get_star_ts": 1669871495
+                        "get_star_ts": 1669871495,
+                        "star_index": 7881
                     },
                     "2": {
-                        "star_index": 10547,
-                        "get_star_ts": 1669871748
+                        "get_star_ts": 1669871748,
+                        "star_index": 10547
                     }
                 },
                 "2": {
@@ -633,203 +147,849 @@
                         "get_star_ts": 1669961900,
                         "star_index": 303533
                     }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 631363,
+                        "get_star_ts": 1670055097
+                    },
+                    "2": {
+                        "get_star_ts": 1670057824,
+                        "star_index": 641530
+                    }
                 }
-            }
-        },
-        "2314348": {
-            "local_score": 168,
-            "last_star_ts": 1669966054,
-            "stars": 4,
-            "name": "Nahian-Al Hasan",
-            "id": 2314348,
+            },
+            "name": "Sam Xia",
+            "id": 1574657,
             "global_score": 0,
+            "last_star_ts": 1670057824,
+            "local_score": 370
+        },
+        "2316129": {
+            "last_star_ts": 1669894391,
+            "global_score": 0,
+            "local_score": 49,
+            "id": 2316129,
+            "name": "Robert Wan",
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 254495,
-                        "get_star_ts": 1669948452
+                        "star_index": 95914,
+                        "get_star_ts": 1669894391
+                    }
+                }
+            },
+            "stars": 1
+        },
+        "1525025": {
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "completion_day_level": {},
+            "stars": 0,
+            "id": 1525025,
+            "name": "Karthik Vankadara"
+        },
+        "2314457": {
+            "name": "Alexander Chau",
+            "id": 2314457,
+            "completion_day_level": {
+                "2": {
+                    "2": {
+                        "star_index": 288014,
+                        "get_star_ts": 1669959257
+                    },
+                    "1": {
+                        "get_star_ts": 1669958307,
+                        "star_index": 277032
+                    }
+                },
+                "3": {
+                    "2": {
+                        "star_index": 726228,
+                        "get_star_ts": 1670079466
+                    },
+                    "1": {
+                        "star_index": 725055,
+                        "get_star_ts": 1670079124
+                    }
+                },
+                "1": {
+                    "1": {
+                        "star_index": 11818,
+                        "get_star_ts": 1669871905
                     },
                     "2": {
-                        "star_index": 254893,
-                        "get_star_ts": 1669948779
+                        "star_index": 13461,
+                        "get_star_ts": 1669872138
+                    }
+                },
+                "4": {
+                    "1": {
+                        "star_index": 858295,
+                        "get_star_ts": 1670131008
+                    }
+                }
+            },
+            "stars": 7,
+            "last_star_ts": 1670131008,
+            "global_score": 0,
+            "local_score": 459
+        },
+        "2314333": {
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "stars": 0,
+            "completion_day_level": {},
+            "name": "Charles Wang",
+            "id": 2314333
+        },
+        "2314354": {
+            "local_score": 261,
+            "last_star_ts": 1669960587,
+            "global_score": 0,
+            "id": 2314354,
+            "name": "Shaun De Roza",
+            "stars": 4,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 15577,
+                        "get_star_ts": 1669872506
+                    },
+                    "2": {
+                        "star_index": 16069,
+                        "get_star_ts": 1669872601
                     }
                 },
                 "2": {
                     "1": {
-                        "star_index": 317305,
-                        "get_star_ts": 1669965006
+                        "star_index": 296133,
+                        "get_star_ts": 1669960413
                     },
                     "2": {
-                        "get_star_ts": 1669966054,
-                        "star_index": 322165
+                        "get_star_ts": 1669960587,
+                        "star_index": 297157
                     }
                 }
             }
         },
-        "1699129": {
+        "2316518": {
+            "local_score": 342,
             "global_score": 0,
+            "last_star_ts": 1670045998,
+            "stars": 6,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669962770,
+                        "star_index": 307496
+                    },
+                    "1": {
+                        "get_star_ts": 1669877003,
+                        "star_index": 30896
+                    }
+                },
+                "3": {
+                    "2": {
+                        "get_star_ts": 1670045998,
+                        "star_index": 597299
+                    },
+                    "1": {
+                        "get_star_ts": 1670044890,
+                        "star_index": 587440
+                    }
+                },
+                "2": {
+                    "2": {
+                        "get_star_ts": 1669962588,
+                        "star_index": 306686
+                    },
+                    "1": {
+                        "star_index": 302193,
+                        "get_star_ts": 1669961608
+                    }
+                }
+            },
+            "id": 2316518,
+            "name": "Xun Zhou"
+        },
+        "2317871": {
+            "completion_day_level": {},
+            "stars": 0,
+            "name": "Michi Aoki",
+            "id": 2317871,
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0
+        },
+        "2314349": {
+            "global_score": 0,
+            "last_star_ts": 1670130728,
+            "local_score": 548,
+            "completion_day_level": {
+                "4": {
+                    "1": {
+                        "star_index": 852826,
+                        "get_star_ts": 1670130659
+                    },
+                    "2": {
+                        "star_index": 854005,
+                        "get_star_ts": 1670130728
+                    }
+                },
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669874000,
+                        "star_index": 21659
+                    },
+                    "1": {
+                        "get_star_ts": 1669873454,
+                        "star_index": 19741
+                    }
+                },
+                "2": {
+                    "1": {
+                        "star_index": 270651,
+                        "get_star_ts": 1669957914
+                    },
+                    "2": {
+                        "get_star_ts": 1669958144,
+                        "star_index": 274463
+                    }
+                },
+                "3": {
+                    "2": {
+                        "star_index": 609974,
+                        "get_star_ts": 1670048663
+                    },
+                    "1": {
+                        "star_index": 607060,
+                        "get_star_ts": 1670047916
+                    }
+                }
+            },
+            "stars": 8,
+            "name": "Tom Madsen",
+            "id": 2314349
+        },
+        "1581176": {
+            "last_star_ts": 0,
+            "global_score": 0,
+            "local_score": 0,
+            "name": "Glen Maisey",
+            "id": 1581176,
+            "stars": 0,
+            "completion_day_level": {}
+        },
+        "2586788": {
+            "local_score": 84,
+            "last_star_ts": 1670037300,
+            "global_score": 0,
+            "name": "Krisha Nagarajan",
+            "id": 2586788,
+            "stars": 2,
+            "completion_day_level": {
+                "2": {
+                    "1": {
+                        "get_star_ts": 1670036922,
+                        "star_index": 568196
+                    },
+                    "2": {
+                        "star_index": 568571,
+                        "get_star_ts": 1670037300
+                    }
+                }
+            }
+        },
+        "654848": {
+            "local_score": 59,
+            "last_star_ts": 1670128521,
+            "global_score": 0,
+            "name": "freshMutton",
+            "id": 654848,
+            "stars": 2,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1670128521,
+                        "star_index": 842885
+                    },
+                    "1": {
+                        "get_star_ts": 1670128051,
+                        "star_index": 842466
+                    }
+                }
+            }
+        },
+        "2314416": {
+            "stars": 0,
+            "completion_day_level": {},
+            "id": 2314416,
+            "name": "Matthew Browne",
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0
+        },
+        "2314348": {
+            "local_score": 172,
+            "last_star_ts": 1669966054,
+            "global_score": 0,
+            "id": 2314348,
+            "name": "Nahian-Al Hasan",
+            "stars": 4,
+            "completion_day_level": {
+                "2": {
+                    "2": {
+                        "get_star_ts": 1669966054,
+                        "star_index": 322165
+                    },
+                    "1": {
+                        "get_star_ts": 1669965006,
+                        "star_index": 317305
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 254893,
+                        "get_star_ts": 1669948779
+                    },
+                    "1": {
+                        "get_star_ts": 1669948452,
+                        "star_index": 254495
+                    }
+                }
+            }
+        },
+        "1702065": {
+            "global_score": 0,
+            "last_star_ts": 1670063455,
+            "local_score": 393,
+            "stars": 6,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 15592,
-                        "get_star_ts": 1669872508
+                        "get_star_ts": 1669872075,
+                        "star_index": 13043
+                    },
+                    "2": {
+                        "star_index": 14291,
+                        "get_star_ts": 1669872273
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670062529,
+                        "star_index": 660926
+                    },
+                    "2": {
+                        "get_star_ts": 1670063455,
+                        "star_index": 664834
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669958173,
+                        "star_index": 274912
+                    },
+                    "2": {
+                        "star_index": 279939,
+                        "get_star_ts": 1669958514
+                    }
+                }
+            },
+            "name": "Jason Kong",
+            "id": 1702065
+        },
+        "2316970": {
+            "completion_day_level": {
+                "2": {
+                    "2": {
+                        "get_star_ts": 1669973060,
+                        "star_index": 361192
+                    },
+                    "1": {
+                        "star_index": 345263,
+                        "get_star_ts": 1669970347
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670044267,
+                        "star_index": 579475
+                    },
+                    "2": {
+                        "get_star_ts": 1670044961,
+                        "star_index": 588197
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": 1670130408,
+                        "star_index": 848058
+                    },
+                    "2": {
+                        "get_star_ts": 1670130796,
+                        "star_index": 855105
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 15237,
+                        "get_star_ts": 1669872447
+                    },
+                    "1": {
+                        "star_index": 13584,
+                        "get_star_ts": 1669872158
+                    }
+                }
+            },
+            "stars": 8,
+            "name": "Eric Du",
+            "id": 2316970,
+            "local_score": 528,
+            "global_score": 0,
+            "last_star_ts": 1670130796
+        },
+        "2314338": {
+            "local_score": 32,
+            "last_star_ts": 1669959510,
+            "global_score": 0,
+            "name": "Ehsan Ul Haq",
+            "id": 2314338,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 290105,
+                        "get_star_ts": 1669959510
+                    }
+                }
+            },
+            "stars": 1
+        },
+        "2315118": {
+            "completion_day_level": {},
+            "stars": 0,
+            "id": 2315118,
+            "name": "Evgenii Titov",
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0
+        },
+        "2315055": {
+            "completion_day_level": {
+                "3": {
+                    "1": {
+                        "star_index": 840357,
+                        "get_star_ts": 1670125796
+                    },
+                    "2": {
+                        "star_index": 841836,
+                        "get_star_ts": 1670127375
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 23978,
+                        "get_star_ts": 1669874723
+                    },
+                    "1": {
+                        "get_star_ts": 1669873330,
+                        "star_index": 19243
+                    }
+                },
+                "4": {
+                    "1": {
+                        "star_index": 858329,
+                        "get_star_ts": 1670131011
+                    }
+                }
+            },
+            "stars": 5,
+            "name": "Jamie Thain",
+            "id": 2315055,
+            "local_score": 298,
+            "global_score": 0,
+            "last_star_ts": 1670131011
+        },
+        "2351680": {
+            "id": 2351680,
+            "name": "Behnam Karimi",
+            "stars": 2,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 241164,
+                        "get_star_ts": 1669938631
+                    },
+                    "2": {
+                        "star_index": 243485,
+                        "get_star_ts": 1669940039
+                    }
+                }
+            },
+            "last_star_ts": 1669940039,
+            "global_score": 0,
+            "local_score": 80
+        },
+        "1823006": {
+            "local_score": 0,
+            "last_star_ts": 0,
+            "global_score": 0,
+            "name": "Simon Hedge",
+            "id": 1823006,
+            "completion_day_level": {},
+            "stars": 0
+        },
+        "2345993": {
+            "local_score": 299,
+            "last_star_ts": 1670128674,
+            "global_score": 0,
+            "name": "Sanoj Marutholickal George",
+            "id": 2345993,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "star_index": 69654,
+                        "get_star_ts": 1669887334
+                    },
+                    "1": {
+                        "get_star_ts": 1669886332,
+                        "star_index": 65277
+                    }
+                },
+                "2": {
+                    "2": {
+                        "star_index": 340391,
+                        "get_star_ts": 1669969508
+                    },
+                    "1": {
+                        "get_star_ts": 1669969095,
+                        "star_index": 338033
+                    }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 842468,
+                        "get_star_ts": 1670128058
+                    },
+                    "2": {
+                        "get_star_ts": 1670128674,
+                        "star_index": 843021
+                    }
+                }
+            },
+            "stars": 6
+        },
+        "2500094": {
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "star_index": 243326,
+                        "get_star_ts": 1669939940
+                    },
+                    "1": {
+                        "get_star_ts": 1669939362,
+                        "star_index": 242380
+                    }
+                }
+            },
+            "stars": 2,
+            "id": 2500094,
+            "name": "Sadeka Islam",
+            "global_score": 0,
+            "last_star_ts": 1669939940,
+            "local_score": 79
+        },
+        "2357964": {
+            "local_score": 344,
+            "global_score": 0,
+            "last_star_ts": 1670047970,
+            "stars": 6,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669885319,
+                        "star_index": 61022
+                    },
+                    "1": {
+                        "get_star_ts": 1669880951,
+                        "star_index": 43637
+                    }
+                },
+                "2": {
+                    "2": {
+                        "get_star_ts": 1669963867,
+                        "star_index": 312330
+                    },
+                    "1": {
+                        "get_star_ts": 1669962891,
+                        "star_index": 308033
+                    }
+                },
+                "3": {
+                    "2": {
+                        "get_star_ts": 1670047970,
+                        "star_index": 607270
+                    },
+                    "1": {
+                        "get_star_ts": 1670046795,
+                        "star_index": 602018
+                    }
+                }
+            },
+            "name": "Nikhil Kankarla",
+            "id": 2357964
+        },
+        "2314330": {
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "completion_day_level": {},
+            "stars": 0,
+            "id": 2314330,
+            "name": "Simone Zanin"
+        },
+        "2499469": {
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "stars": 0,
+            "completion_day_level": {},
+            "name": "Dannie Ong",
+            "id": 2499469
+        },
+        "2363869": {
+            "local_score": 346,
+            "last_star_ts": 1670055626,
+            "global_score": 0,
+            "name": "PeetV",
+            "id": 2363869,
+            "stars": 6,
+            "completion_day_level": {
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669960901,
+                        "star_index": 298826
+                    },
+                    "2": {
+                        "get_star_ts": 1669961685,
+                        "star_index": 302569
+                    }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 626560,
+                        "get_star_ts": 1670053666
+                    },
+                    "2": {
+                        "get_star_ts": 1670055626,
+                        "star_index": 633248
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 58490,
+                        "get_star_ts": 1669884726
+                    },
+                    "1": {
+                        "get_star_ts": 1669884248,
+                        "star_index": 56367
+                    }
+                }
+            }
+        },
+        "2314683": {
+            "global_score": 0,
+            "last_star_ts": 1670122666,
+            "local_score": 357,
+            "stars": 6,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669874582,
+                        "star_index": 23545
+                    },
+                    "1": {
+                        "get_star_ts": 1669874275,
+                        "star_index": 22572
+                    }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 834529,
+                        "get_star_ts": 1670120070
+                    },
+                    "2": {
+                        "star_index": 837208,
+                        "get_star_ts": 1670122666
+                    }
+                },
+                "2": {
+                    "1": {
+                        "star_index": 292153,
+                        "get_star_ts": 1669959784
+                    },
+                    "2": {
+                        "get_star_ts": 1669959892,
+                        "star_index": 292936
+                    }
+                }
+            },
+            "name": "Danial Azam",
+            "id": 2314683
+        },
+        "2314441": {
+            "local_score": 0,
+            "last_star_ts": 0,
+            "global_score": 0,
+            "id": 2314441,
+            "name": "Ting Chen",
+            "stars": 0,
+            "completion_day_level": {}
+        },
+        "2314332": {
+            "name": "Emma Callaghan",
+            "id": 2314332,
+            "stars": 2,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1669938703,
+                        "star_index": 241303
+                    },
+                    "2": {
+                        "get_star_ts": 1669938799,
+                        "star_index": 241485
+                    }
+                }
+            },
+            "local_score": 83,
+            "last_star_ts": 1669938799,
+            "global_score": 0
+        },
+        "1511475": {
+            "local_score": 596,
+            "global_score": 0,
+            "last_star_ts": 1670130624,
+            "stars": 8,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669871612,
+                        "star_index": 9221
+                    },
+                    "1": {
+                        "star_index": 5032,
+                        "get_star_ts": 1669871288
+                    }
+                },
+                "4": {
+                    "2": {
+                        "star_index": 852161,
+                        "get_star_ts": 1670130624
+                    },
+                    "1": {
+                        "star_index": 850688,
+                        "get_star_ts": 1670130544
+                    }
+                },
+                "2": {
+                    "2": {
+                        "star_index": 274937,
+                        "get_star_ts": 1669958174
+                    },
+                    "1": {
+                        "get_star_ts": 1669957567,
+                        "star_index": 265905
+                    }
+                },
+                "3": {
+                    "2": {
+                        "star_index": 580401,
+                        "get_star_ts": 1670044335
+                    },
+                    "1": {
+                        "get_star_ts": 1670044023,
+                        "star_index": 576514
+                    }
+                }
+            },
+            "id": 1511475,
+            "name": "Troy Murray"
+        },
+        "2339792": {
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0,
+            "completion_day_level": {},
+            "stars": 0,
+            "id": 2339792,
+            "name": "Charlotte Middleton"
+        },
+        "1525213": {
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0,
+            "stars": 0,
+            "completion_day_level": {},
+            "name": "Clinton Greer",
+            "id": 1525213
+        },
+        "1575049": {
+            "completion_day_level": {},
+            "stars": 0,
+            "name": "sundaram thangaraj",
+            "id": 1575049,
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0
+        },
+        "1699129": {
+            "name": "Nick Barton",
+            "id": 1699129,
+            "stars": 6,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1669872508,
+                        "star_index": 15592
                     },
                     "2": {
                         "get_star_ts": 1669873387,
                         "star_index": 19477
                     }
                 },
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669961586,
-                        "star_index": 302085
+                "3": {
+                    "2": {
+                        "star_index": 605798,
+                        "get_star_ts": 1670047613
                     },
+                    "1": {
+                        "get_star_ts": 1670046669,
+                        "star_index": 601369
+                    }
+                },
+                "2": {
                     "2": {
                         "star_index": 320995,
                         "get_star_ts": 1669965804
+                    },
+                    "1": {
+                        "get_star_ts": 1669961586,
+                        "star_index": 302085
                     }
                 }
             },
-            "last_star_ts": 1669965804,
-            "stars": 4,
-            "name": "Nick Barton",
-            "id": 1699129,
-            "local_score": 237
-        },
-        "2314338": {
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669959510,
-                        "star_index": 290105
-                    }
-                }
-            },
-            "global_score": 0,
-            "id": 2314338,
-            "last_star_ts": 1669959510,
-            "stars": 1,
-            "name": "Ehsan Ul Haq",
-            "local_score": 31
-        },
-        "1577287": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 1577287,
-            "name": "Harvinder Singh",
-            "local_score": 0
-        },
-        "1528611": {
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "star_index": 265246,
-                        "get_star_ts": 1669957485
-                    },
-                    "2": {
-                        "get_star_ts": 1669957587,
-                        "star_index": 266088
-                    }
-                },
-                "1": {
-                    "2": {
-                        "star_index": 233885,
-                        "get_star_ts": 1669935059
-                    },
-                    "1": {
-                        "get_star_ts": 1669934992,
-                        "star_index": 233739
-                    }
-                }
-            },
-            "global_score": 0,
-            "last_star_ts": 1669957587,
-            "id": 1528611,
-            "stars": 4,
-            "name": "Kyle Simpson",
-            "local_score": 239
-        },
-        "2363069": {
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "2": {
-                        "get_star_ts": 1669970640,
-                        "star_index": 347026
-                    },
-                    "1": {
-                        "star_index": 314607,
-                        "get_star_ts": 1669964396
-                    }
-                },
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669888774,
-                        "star_index": 75702
-                    },
-                    "2": {
-                        "star_index": 77731,
-                        "get_star_ts": 1669889298
-                    }
-                }
-            },
-            "local_score": 198,
-            "id": 2363069,
-            "last_star_ts": 1669970640,
-            "stars": 4,
-            "name": "Adam Lusted"
-        },
-        "2314568": {
-            "completion_day_level": {},
-            "global_score": 0,
-            "local_score": 0,
-            "last_star_ts": 0,
-            "id": 2314568,
-            "stars": 0,
-            "name": "Anuj Chopra"
-        },
-        "2339792": {
-            "stars": 0,
-            "last_star_ts": 0,
-            "name": "Charlotte Middleton",
-            "id": 2339792,
-            "local_score": 0,
-            "completion_day_level": {},
+            "local_score": 373,
+            "last_star_ts": 1670047613,
             "global_score": 0
-        },
-        "2315049": {
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669936516,
-                        "star_index": 237193
-                    },
-                    "2": {
-                        "star_index": 237669,
-                        "get_star_ts": 1669936753
-                    }
-                }
-            },
-            "stars": 2,
-            "last_star_ts": 1669936753,
-            "id": 2315049,
-            "name": "Faraz Ghasemzadeh",
-            "local_score": 87
-        },
-        "1756823": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 1756823,
-            "name": "Daniel Eyles",
-            "local_score": 0
         },
         "2513411": {
             "global_score": 0,
+            "last_star_ts": 1669955010,
+            "local_score": 70,
             "completion_day_level": {
                 "1": {
                     "2": {
@@ -842,460 +1002,169 @@
                     }
                 }
             },
-            "local_score": 68,
-            "id": 2513411,
-            "last_star_ts": 1669955010,
             "stars": 2,
-            "name": "Si Wang"
+            "name": "Si Wang",
+            "id": 2513411
         },
-        "2246853": {
-            "stars": 4,
-            "last_star_ts": 1669961916,
-            "id": 2246853,
-            "name": "Girija Nambimadhom",
-            "local_score": 234,
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "star_index": 285183,
-                        "get_star_ts": 1669958957
-                    },
-                    "2": {
-                        "get_star_ts": 1669961916,
-                        "star_index": 303606
-                    }
-                },
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669880250,
-                        "star_index": 41169
-                    },
-                    "2": {
-                        "star_index": 45362,
-                        "get_star_ts": 1669881412
-                    }
-                }
-            }
-        },
-        "2504813": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "last_star_ts": 0,
-            "id": 2504813,
+        "2506109": {
             "stars": 0,
-            "name": "Noeal Al Bhno Nesan",
-            "local_score": 0
-        },
-        "2314683": {
-            "local_score": 251,
-            "last_star_ts": 1669959892,
-            "id": 2314683,
-            "stars": 4,
-            "name": "Danial Azam",
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669874275,
-                        "star_index": 22572
-                    },
-                    "2": {
-                        "star_index": 23545,
-                        "get_star_ts": 1669874582
-                    }
-                },
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669959784,
-                        "star_index": 292153
-                    },
-                    "2": {
-                        "get_star_ts": 1669959892,
-                        "star_index": 292936
-                    }
-                }
-            },
-            "global_score": 0
-        },
-        "2315168": {
-            "global_score": 0,
             "completion_day_level": {},
+            "name": "Jeremy Hurter",
+            "id": 2506109,
             "local_score": 0,
-            "name": "Yang Gao",
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 2315168
-        },
-        "2316970": {
             "global_score": 0,
+            "last_star_ts": 0
+        },
+        "2343872": {
             "completion_day_level": {
-                "2": {
-                    "2": {
-                        "star_index": 361192,
-                        "get_star_ts": 1669973060
-                    },
-                    "1": {
-                        "star_index": 345263,
-                        "get_star_ts": 1669970347
-                    }
-                },
                 "1": {
                     "1": {
-                        "get_star_ts": 1669872158,
-                        "star_index": 13584
+                        "star_index": 609446,
+                        "get_star_ts": 1670048533
                     },
                     "2": {
-                        "get_star_ts": 1669872447,
-                        "star_index": 15237
+                        "get_star_ts": 1670048662,
+                        "star_index": 609972
                     }
                 },
                 "3": {
                     "1": {
-                        "get_star_ts": 1670044267,
-                        "star_index": 579475
-                    }
-                }
-            },
-            "local_score": 301,
-            "name": "Eric Du",
-            "last_star_ts": 1670044267,
-            "stars": 5,
-            "id": 2316970
-        },
-        "1541874": {
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "2": {
-                        "star_index": 23714,
-                        "get_star_ts": 1669874638
+                        "star_index": 791801,
+                        "get_star_ts": 1670099448
                     },
-                    "1": {
-                        "star_index": 23418,
-                        "get_star_ts": 1669874543
+                    "2": {
+                        "get_star_ts": 1670101667,
+                        "star_index": 798186
                     }
                 },
                 "2": {
                     "2": {
-                        "get_star_ts": 1669967758,
-                        "star_index": 330953
+                        "star_index": 621064,
+                        "get_star_ts": 1670052007
                     },
                     "1": {
-                        "get_star_ts": 1669966979,
-                        "star_index": 326870
+                        "star_index": 618055,
+                        "get_star_ts": 1670051073
                     }
                 }
             },
-            "name": "Anthony Keane",
-            "last_star_ts": 1669967758,
-            "stars": 4,
-            "id": 1541874,
-            "local_score": 218
-        },
-        "2314371": {
-            "name": "Nick Della",
-            "last_star_ts": 1669960758,
-            "stars": 4,
-            "id": 2314371,
-            "local_score": 256,
-            "completion_day_level": {
-                "1": {
-                    "1": {
-                        "star_index": 15570,
-                        "get_star_ts": 1669872504
-                    },
-                    "2": {
-                        "star_index": 15610,
-                        "get_star_ts": 1669872511
-                    }
-                },
-                "2": {
-                    "2": {
-                        "star_index": 298073,
-                        "get_star_ts": 1669960758
-                    },
-                    "1": {
-                        "star_index": 297535,
-                        "get_star_ts": 1669960650
-                    }
-                }
-            },
-            "global_score": 0
-        },
-        "2314373": {
-            "local_score": 224,
-            "last_star_ts": 1669962179,
-            "stars": 4,
-            "name": "Jonny Keane",
-            "id": 2314373,
+            "stars": 6,
+            "name": "Isabella Juria",
+            "id": 2343872,
+            "local_score": 249,
             "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "star_index": 298323,
-                        "get_star_ts": 1669960804
-                    },
-                    "2": {
-                        "get_star_ts": 1669962179,
-                        "star_index": 304839
-                    }
-                },
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669880869,
-                        "star_index": 43326
-                    },
-                    "2": {
-                        "star_index": 45732,
-                        "get_star_ts": 1669881511
-                    }
-                }
-            }
+            "last_star_ts": 1670101667
         },
-        "2315118": {
+        "1577287": {
             "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0,
+            "completion_day_level": {},
+            "stars": 0,
+            "name": "Harvinder Singh",
+            "id": 1577287
+        },
+        "2498476": {
+            "name": "David Speed",
+            "id": 2498476,
+            "stars": 0,
             "completion_day_level": {},
             "last_star_ts": 0,
-            "name": "Evgenii Titov",
-            "stars": 0,
-            "id": 2315118,
+            "global_score": 0,
             "local_score": 0
         },
         "2501294": {
+            "local_score": 380,
+            "last_star_ts": 1670044904,
+            "global_score": 0,
+            "id": 2501294,
+            "name": "Ishan Bapat",
+            "stars": 6,
             "completion_day_level": {
                 "2": {
-                    "1": {
-                        "get_star_ts": 1669957765,
-                        "star_index": 268304
-                    },
                     "2": {
                         "star_index": 274756,
                         "get_star_ts": 1669958163
-                    }
-                },
-                "1": {
-                    "2": {
-                        "get_star_ts": 1669938402,
-                        "star_index": 240786
                     },
                     "1": {
-                        "get_star_ts": 1669938293,
-                        "star_index": 240588
+                        "get_star_ts": 1669957765,
+                        "star_index": 268304
                     }
                 },
                 "3": {
                     "1": {
                         "get_star_ts": 1670044358,
                         "star_index": 580680
-                    }
-                }
-            },
-            "global_score": 0,
-            "last_star_ts": 1670044358,
-            "stars": 5,
-            "name": "Ishan Bapat",
-            "id": 2501294,
-            "local_score": 301
-        },
-        "2498476": {
-            "local_score": 0,
-            "last_star_ts": 0,
-            "id": 2498476,
-            "stars": 0,
-            "name": "David Speed",
-            "global_score": 0,
-            "completion_day_level": {}
-        },
-        "2343872": {
-            "last_star_ts": 0,
-            "name": "Isabella Juria",
-            "stars": 0,
-            "id": 2343872,
-            "local_score": 0,
-            "global_score": 0,
-            "completion_day_level": {}
-        },
-        "1524895": {
-            "global_score": 0,
-            "completion_day_level": {},
-            "local_score": 0,
-            "last_star_ts": 0,
-            "stars": 0,
-            "name": "Peet Vermeulen",
-            "id": 1524895
-        },
-        "2314349": {
-            "local_score": 269,
-            "stars": 4,
-            "last_star_ts": 1669958144,
-            "id": 2314349,
-            "name": "Tom Madsen",
-            "global_score": 0,
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669957914,
-                        "star_index": 270651
                     },
                     "2": {
-                        "get_star_ts": 1669958144,
-                        "star_index": 274463
+                        "get_star_ts": 1670044904,
+                        "star_index": 587609
                     }
                 },
                 "1": {
                     "1": {
-                        "get_star_ts": 1669873454,
-                        "star_index": 19741
+                        "star_index": 240588,
+                        "get_star_ts": 1669938293
                     },
                     "2": {
-                        "get_star_ts": 1669874000,
-                        "star_index": 21659
+                        "get_star_ts": 1669938402,
+                        "star_index": 240786
                     }
                 }
             }
         },
-        "2314397": {
-            "local_score": 0,
+        "2504813": {
             "last_star_ts": 0,
-            "name": "Vivienne Zhu",
-            "stars": 0,
-            "id": 2314397,
             "global_score": 0,
-            "completion_day_level": {}
-        },
-        "1563924": {
-            "global_score": 0,
+            "local_score": 0,
+            "name": "Noeal Al Bhno Nesan",
+            "id": 2504813,
             "completion_day_level": {},
-            "local_score": 0,
-            "stars": 0,
-            "last_star_ts": 0,
-            "name": "Chandra Sekhar Nandigama",
-            "id": 1563924
+            "stars": 0
         },
-        "2493662": {
-            "global_score": 0,
+        "2315049": {
             "completion_day_level": {
                 "1": {
                     "2": {
-                        "get_star_ts": 1669939765,
-                        "star_index": 243048
+                        "star_index": 237669,
+                        "get_star_ts": 1669936753
                     },
                     "1": {
-                        "star_index": 242421,
-                        "get_star_ts": 1669939387
-                    }
-                },
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669979556,
-                        "star_index": 394509
-                    },
-                    "2": {
-                        "get_star_ts": 1669980369,
-                        "star_index": 397848
+                        "get_star_ts": 1669936516,
+                        "star_index": 237193
                     }
                 }
             },
-            "local_score": 165,
-            "last_star_ts": 1669980369,
-            "name": "Tharindu Gayan Gayan Vitharana Gamage",
-            "stars": 4,
-            "id": 2493662
-        },
-        "2314416": {
-            "completion_day_level": {},
+            "stars": 2,
+            "id": 2315049,
+            "name": "Faraz Ghasemzadeh",
+            "local_score": 89,
             "global_score": 0,
-            "local_score": 0,
-            "name": "Matthew Browne",
-            "last_star_ts": 0,
-            "stars": 0,
-            "id": 2314416
-        },
-        "2314420": {
-            "completion_day_level": {
-                "2": {
-                    "1": {
-                        "get_star_ts": 1669960456,
-                        "star_index": 296390
-                    },
-                    "2": {
-                        "get_star_ts": 1669962648,
-                        "star_index": 306954
-                    }
-                },
-                "1": {
-                    "2": {
-                        "get_star_ts": 1669892151,
-                        "star_index": 88429
-                    },
-                    "1": {
-                        "star_index": 85928,
-                        "get_star_ts": 1669891442
-                    }
-                }
-            },
-            "global_score": 0,
-            "last_star_ts": 1669962648,
-            "name": "Jawed Macknojia",
-            "stars": 4,
-            "id": 2314420,
-            "local_score": 214
-        },
-        "654848": {
-            "last_star_ts": 0,
-            "name": "freshMutton",
-            "stars": 0,
-            "id": 654848,
-            "local_score": 0,
-            "completion_day_level": {},
-            "global_score": 0
-        },
-        "2315038": {
-            "name": "Isaac Falvey",
-            "last_star_ts": 1669958454,
-            "stars": 4,
-            "id": 2315038,
-            "local_score": 282,
-            "global_score": 0,
-            "completion_day_level": {
-                "1": {
-                    "2": {
-                        "star_index": 13514,
-                        "get_star_ts": 1669872146
-                    },
-                    "1": {
-                        "star_index": 5948,
-                        "get_star_ts": 1669871352
-                    }
-                },
-                "2": {
-                    "2": {
-                        "star_index": 279154,
-                        "get_star_ts": 1669958454
-                    },
-                    "1": {
-                        "get_star_ts": 1669958152,
-                        "star_index": 274583
-                    }
-                }
-            }
+            "last_star_ts": 1669936753
         },
         "2452669": {
-            "local_score": 200,
-            "last_star_ts": 1669958600,
-            "id": 2452669,
-            "stars": 4,
-            "name": "Sandra Rodriguez",
             "global_score": 0,
+            "last_star_ts": 1670084029,
+            "local_score": 312,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 262644,
-                        "get_star_ts": 1669955404
+                        "get_star_ts": 1669955404,
+                        "star_index": 262644
                     },
                     "2": {
-                        "get_star_ts": 1669955454,
-                        "star_index": 262707
+                        "star_index": 262707,
+                        "get_star_ts": 1669955454
+                    }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 742200,
+                        "get_star_ts": 1670084011
+                    },
+                    "2": {
+                        "star_index": 742262,
+                        "get_star_ts": 1670084029
                     }
                 },
                 "2": {
@@ -1308,147 +1177,514 @@
                         "star_index": 281080
                     }
                 }
-            }
+            },
+            "stars": 6,
+            "id": 2452669,
+            "name": "Sandra Rodriguez"
         },
-        "2314330": {
-            "completion_day_level": {},
-            "global_score": 0,
-            "last_star_ts": 0,
-            "stars": 0,
-            "name": "Simone Zanin",
-            "id": 2314330,
-            "local_score": 0
-        },
-        "1562742": {
-            "local_score": 129,
-            "last_star_ts": 1669873779,
-            "name": "Sundaram Thangaraj",
-            "stars": 2,
-            "id": 1562742,
+        "1528611": {
+            "stars": 6,
             "completion_day_level": {
-                "1": {
+                "2": {
                     "1": {
-                        "get_star_ts": 1669873433,
-                        "star_index": 19668
+                        "star_index": 265246,
+                        "get_star_ts": 1669957485
                     },
                     "2": {
-                        "get_star_ts": 1669873779,
-                        "star_index": 20876
+                        "get_star_ts": 1669957587,
+                        "star_index": 266088
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670045354,
+                        "star_index": 592171
+                    },
+                    "2": {
+                        "star_index": 598642,
+                        "get_star_ts": 1670046196
+                    }
+                },
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669935059,
+                        "star_index": 233885
+                    },
+                    "1": {
+                        "get_star_ts": 1669934992,
+                        "star_index": 233739
                     }
                 }
             },
-            "global_score": 0
+            "name": "Kyle Simpson",
+            "id": 1528611,
+            "global_score": 0,
+            "last_star_ts": 1670046196,
+            "local_score": 378
         },
-        "1511475": {
+        "1541874": {
             "completion_day_level": {
-                "3": {
+                "2": {
                     "2": {
-                        "star_index": 580401,
-                        "get_star_ts": 1670044335
+                        "star_index": 330953,
+                        "get_star_ts": 1669967758
                     },
                     "1": {
-                        "star_index": 576514,
-                        "get_star_ts": 1670044023
+                        "get_star_ts": 1669966979,
+                        "star_index": 326870
+                    }
+                },
+                "3": {
+                    "2": {
+                        "star_index": 622473,
+                        "get_star_ts": 1670052438
+                    },
+                    "1": {
+                        "get_star_ts": 1670050637,
+                        "star_index": 616643
+                    }
+                },
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669874638,
+                        "star_index": 23714
+                    },
+                    "1": {
+                        "star_index": 23418,
+                        "get_star_ts": 1669874543
+                    }
+                }
+            },
+            "stars": 6,
+            "id": 1541874,
+            "name": "Anthony Keane",
+            "local_score": 343,
+            "global_score": 0,
+            "last_star_ts": 1670052438
+        },
+        "2459724": {
+            "stars": 4,
+            "completion_day_level": {
+                "2": {
+                    "2": {
+                        "get_star_ts": 1670022053,
+                        "star_index": 547673
+                    },
+                    "1": {
+                        "star_index": 546552,
+                        "get_star_ts": 1670021591
                     }
                 },
                 "1": {
                     "1": {
-                        "star_index": 5032,
-                        "get_star_ts": 1669871288
+                        "get_star_ts": 1669916594,
+                        "star_index": 174236
                     },
                     "2": {
-                        "star_index": 9221,
-                        "get_star_ts": 1669871612
+                        "star_index": 174396,
+                        "get_star_ts": 1669916640
+                    }
+                }
+            },
+            "name": "Wen Dou",
+            "id": 2459724,
+            "local_score": 181,
+            "global_score": 0,
+            "last_star_ts": 1670022053
+        },
+        "2340867": {
+            "completion_day_level": {},
+            "stars": 0,
+            "id": 2340867,
+            "name": "Anthony Guo",
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0
+        },
+        "2341970": {
+            "completion_day_level": {
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670117133,
+                        "star_index": 831102
+                    },
+                    "2": {
+                        "get_star_ts": 1670117143,
+                        "star_index": 831113
+                    }
+                },
+                "2": {
+                    "2": {
+                        "get_star_ts": 1669960025,
+                        "star_index": 293766
+                    },
+                    "1": {
+                        "star_index": 290669,
+                        "get_star_ts": 1669959581
+                    }
+                },
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669946082,
+                        "star_index": 251703
+                    },
+                    "1": {
+                        "star_index": 250613,
+                        "get_star_ts": 1669945171
+                    }
+                }
+            },
+            "stars": 6,
+            "name": "Abhinav Kumar Singh",
+            "id": 2341970,
+            "local_score": 306,
+            "global_score": 0,
+            "last_star_ts": 1670117143
+        },
+        "2315168": {
+            "id": 2315168,
+            "name": "Yang Gao",
+            "completion_day_level": {},
+            "stars": 0,
+            "local_score": 0,
+            "last_star_ts": 0,
+            "global_score": 0
+        },
+        "2246852": {
+            "id": 2246852,
+            "name": "Selvi Manoharan",
+            "stars": 2,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "star_index": 244130,
+                        "get_star_ts": 1669940462
+                    },
+                    "1": {
+                        "star_index": 240625,
+                        "get_star_ts": 1669938312
+                    }
+                }
+            },
+            "last_star_ts": 1669940462,
+            "global_score": 0,
+            "local_score": 80
+        },
+        "2314584": {
+            "local_score": 406,
+            "global_score": 0,
+            "last_star_ts": 1670130760,
+            "stars": 7,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "star_index": 201522,
+                        "get_star_ts": 1669924660
+                    },
+                    "1": {
+                        "get_star_ts": 1669924555,
+                        "star_index": 201141
+                    }
+                },
+                "4": {
+                    "1": {
+                        "star_index": 854505,
+                        "get_star_ts": 1670130760
                     }
                 },
                 "2": {
                     "1": {
-                        "get_star_ts": 1669957567,
-                        "star_index": 265905
+                        "star_index": 302371,
+                        "get_star_ts": 1669961641
                     },
                     "2": {
-                        "get_star_ts": 1669958174,
-                        "star_index": 274937
+                        "get_star_ts": 1669961902,
+                        "star_index": 303542
+                    }
+                },
+                "3": {
+                    "2": {
+                        "get_star_ts": 1670048734,
+                        "star_index": 610244
+                    },
+                    "1": {
+                        "star_index": 607030,
+                        "get_star_ts": 1670047910
                     }
                 }
             },
+            "name": "James Edenborough",
+            "id": 2314584
+        },
+        "2537678": {
             "global_score": 0,
-            "name": "Troy Murray",
-            "last_star_ts": 1670044335,
+            "last_star_ts": 1670045161,
+            "local_score": 298,
+            "completion_day_level": {
+                "2": {
+                    "2": {
+                        "get_star_ts": 1669979002,
+                        "star_index": 391976
+                    },
+                    "1": {
+                        "get_star_ts": 1669978523,
+                        "star_index": 389813
+                    }
+                },
+                "3": {
+                    "2": {
+                        "get_star_ts": 1670045161,
+                        "star_index": 590303
+                    },
+                    "1": {
+                        "star_index": 582098,
+                        "get_star_ts": 1670044463
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 384811,
+                        "get_star_ts": 1669977468
+                    },
+                    "1": {
+                        "star_index": 384322,
+                        "get_star_ts": 1669977375
+                    }
+                }
+            },
             "stars": 6,
-            "id": 1511475,
-            "local_score": 440
+            "id": 2537678,
+            "name": "Haojie Huang"
         },
-        "1823006": {
-            "local_score": 0,
-            "stars": 0,
+        "2314794": {
             "last_star_ts": 0,
-            "name": "Simon Hedge",
-            "id": 1823006,
             "global_score": 0,
-            "completion_day_level": {}
+            "local_score": 0,
+            "name": "Mercedeh Edrisi Sormoli",
+            "id": 2314794,
+            "completion_day_level": {},
+            "stars": 0
         },
-        "2314415": {
-            "global_score": 0,
+        "2246853": {
+            "stars": 6,
             "completion_day_level": {
-                "1": {
+                "3": {
+                    "2": {
+                        "get_star_ts": 1670067030,
+                        "star_index": 679708
+                    },
                     "1": {
-                        "get_star_ts": 1669876354,
-                        "star_index": 28981
+                        "get_star_ts": 1670060064,
+                        "star_index": 650366
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669958957,
+                        "star_index": 285183
                     },
                     "2": {
-                        "get_star_ts": 1669876441,
-                        "star_index": 29217
+                        "get_star_ts": 1669961916,
+                        "star_index": 303606
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 45362,
+                        "get_star_ts": 1669881412
+                    },
+                    "1": {
+                        "get_star_ts": 1669880250,
+                        "star_index": 41169
                     }
                 }
             },
-            "local_score": 118,
-            "name": null,
-            "last_star_ts": 1669876441,
-            "stars": 2,
-            "id": 2314415
-        },
-        "1581176": {
-            "stars": 0,
-            "last_star_ts": 0,
-            "name": "Glen Maisey",
-            "id": 1581176,
-            "local_score": 0,
+            "name": "Girija Nambimadhom",
+            "id": 2246853,
+            "local_score": 351,
             "global_score": 0,
-            "completion_day_level": {}
+            "last_star_ts": 1670067030
         },
-        "2355642": {
+        "2314371": {
+            "local_score": 260,
+            "global_score": 0,
+            "last_star_ts": 1669960758,
+            "stars": 4,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "get_star_ts": 1669876467,
-                        "star_index": 29293
+                        "star_index": 15570,
+                        "get_star_ts": 1669872504
                     },
                     "2": {
-                        "star_index": 242808,
-                        "get_star_ts": 1669939619
+                        "star_index": 15610,
+                        "get_star_ts": 1669872511
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669960650,
+                        "star_index": 297535
+                    },
+                    "2": {
+                        "get_star_ts": 1669960758,
+                        "star_index": 298073
                     }
                 }
             },
+            "id": 2314371,
+            "name": "Nick Della"
+        },
+        "2314568": {
+            "last_star_ts": 0,
             "global_score": 0,
-            "local_score": 100,
-            "last_star_ts": 1669939619,
-            "id": 2355642,
-            "stars": 2,
-            "name": "Ameya Bhave"
+            "local_score": 0,
+            "name": "Anuj Chopra",
+            "id": 2314568,
+            "completion_day_level": {},
+            "stars": 0
+        },
+        "2314373": {
+            "local_score": 364,
+            "last_star_ts": 1670046896,
+            "global_score": 0,
+            "id": 2314373,
+            "name": "Jonny Keane",
+            "stars": 6,
+            "completion_day_level": {
+                "2": {
+                    "1": {
+                        "star_index": 298323,
+                        "get_star_ts": 1669960804
+                    },
+                    "2": {
+                        "get_star_ts": 1669962179,
+                        "star_index": 304839
+                    }
+                },
+                "3": {
+                    "2": {
+                        "star_index": 602569,
+                        "get_star_ts": 1670046896
+                    },
+                    "1": {
+                        "star_index": 588279,
+                        "get_star_ts": 1670044968
+                    }
+                },
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669881511,
+                        "star_index": 45732
+                    },
+                    "1": {
+                        "star_index": 43326,
+                        "get_star_ts": 1669880869
+                    }
+                }
+            }
+        },
+        "2315038": {
+            "last_star_ts": 1669958454,
+            "global_score": 0,
+            "local_score": 286,
+            "name": "Isaac Falvey",
+            "id": 2315038,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "get_star_ts": 1669871352,
+                        "star_index": 5948
+                    },
+                    "2": {
+                        "star_index": 13514,
+                        "get_star_ts": 1669872146
+                    }
+                },
+                "2": {
+                    "2": {
+                        "star_index": 279154,
+                        "get_star_ts": 1669958454
+                    },
+                    "1": {
+                        "get_star_ts": 1669958152,
+                        "star_index": 274583
+                    }
+                }
+            },
+            "stars": 4
+        },
+        "2363069": {
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669889298,
+                        "star_index": 77731
+                    },
+                    "1": {
+                        "get_star_ts": 1669888774,
+                        "star_index": 75702
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669964396,
+                        "star_index": 314607
+                    },
+                    "2": {
+                        "star_index": 347026,
+                        "get_star_ts": 1669970640
+                    }
+                }
+            },
+            "stars": 4,
+            "id": 2363069,
+            "name": "Adam Lusted",
+            "local_score": 202,
+            "global_score": 0,
+            "last_star_ts": 1669970640
+        },
+        "1563924": {
+            "stars": 0,
+            "completion_day_level": {},
+            "id": 1563924,
+            "name": "Chandra Sekhar Nandigama",
+            "global_score": 0,
+            "last_star_ts": 0,
+            "local_score": 0
+        },
+        "1562742": {
+            "local_score": 131,
+            "last_star_ts": 1669873779,
+            "global_score": 0,
+            "name": "Sundaram Thangaraj",
+            "id": 1562742,
+            "completion_day_level": {
+                "1": {
+                    "1": {
+                        "star_index": 19668,
+                        "get_star_ts": 1669873433
+                    },
+                    "2": {
+                        "star_index": 20876,
+                        "get_star_ts": 1669873779
+                    }
+                }
+            },
+            "stars": 2
         },
         "2315009": {
-            "local_score": 213,
+            "local_score": 217,
             "last_star_ts": 1669965801,
-            "stars": 4,
+            "global_score": 0,
             "name": "Victor Kwan",
             "id": 2315009,
-            "global_score": 0,
+            "stars": 4,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 33656,
-                        "get_star_ts": 1669877902
+                        "get_star_ts": 1669877902,
+                        "star_index": 33656
                     },
                     "2": {
                         "get_star_ts": 1669878259,
@@ -1457,8 +1693,8 @@
                 },
                 "2": {
                     "2": {
-                        "get_star_ts": 1669965801,
-                        "star_index": 320979
+                        "star_index": 320979,
+                        "get_star_ts": 1669965801
                     },
                     "1": {
                         "star_index": 319784,
@@ -1467,82 +1703,214 @@
                 }
             }
         },
-        "2314457": {
-            "local_score": 274,
-            "last_star_ts": 1669959257,
+        "2493662": {
             "stars": 4,
-            "id": 2314457,
-            "name": "Alexander Chau",
-            "completion_day_level": {
-                "2": {
-                    "2": {
-                        "star_index": 288014,
-                        "get_star_ts": 1669959257
-                    },
-                    "1": {
-                        "get_star_ts": 1669958307,
-                        "star_index": 277032
-                    }
-                },
-                "1": {
-                    "1": {
-                        "get_star_ts": 1669871905,
-                        "star_index": 11818
-                    },
-                    "2": {
-                        "get_star_ts": 1669872138,
-                        "star_index": 13461
-                    }
-                }
-            },
-            "global_score": 0
-        },
-        "2316518": {
-            "local_score": 199,
-            "name": "Xun Zhou",
-            "last_star_ts": 1669962770,
-            "stars": 4,
-            "id": 2316518,
             "completion_day_level": {
                 "1": {
-                    "1": {
-                        "star_index": 30896,
-                        "get_star_ts": 1669877003
-                    },
                     "2": {
-                        "star_index": 307496,
-                        "get_star_ts": 1669962770
+                        "get_star_ts": 1669939765,
+                        "star_index": 243048
+                    },
+                    "1": {
+                        "get_star_ts": 1669939387,
+                        "star_index": 242421
                     }
                 },
                 "2": {
                     "1": {
-                        "get_star_ts": 1669961608,
-                        "star_index": 302193
+                        "get_star_ts": 1669979556,
+                        "star_index": 394509
                     },
                     "2": {
-                        "star_index": 306686,
-                        "get_star_ts": 1669962588
+                        "star_index": 397848,
+                        "get_star_ts": 1669980369
                     }
                 }
             },
+            "id": 2493662,
+            "name": "Tharindu Gayan Gayan Vitharana Gamage",
+            "local_score": 167,
+            "global_score": 0,
+            "last_star_ts": 1669980369
+        },
+        "2314397": {
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0,
+            "stars": 0,
+            "completion_day_level": {},
+            "id": 2314397,
+            "name": "Vivienne Zhu"
+        },
+        "2174423": {
+            "last_star_ts": 1670045480,
+            "global_score": 0,
+            "local_score": 382,
+            "id": 2174423,
+            "name": "Anton Bubna-Litic",
+            "stars": 6,
+            "completion_day_level": {
+                "1": {
+                    "2": {
+                        "get_star_ts": 1669904588,
+                        "star_index": 130137
+                    },
+                    "1": {
+                        "star_index": 129288,
+                        "get_star_ts": 1669904373
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670045011,
+                        "star_index": 588745
+                    },
+                    "2": {
+                        "star_index": 593279,
+                        "get_star_ts": 1670045480
+                    }
+                },
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669957784,
+                        "star_index": 268591
+                    },
+                    "2": {
+                        "get_star_ts": 1669957890,
+                        "star_index": 270246
+                    }
+                }
+            }
+        },
+        "1756823": {
+            "id": 1756823,
+            "name": "Daniel Eyles",
+            "completion_day_level": {},
+            "stars": 0,
+            "local_score": 0,
+            "last_star_ts": 0,
             "global_score": 0
         },
-        "2316129": {
-            "local_score": 48,
-            "stars": 1,
-            "last_star_ts": 1669894391,
-            "name": "Robert Wan",
-            "id": 2316129,
+        "1511480": {
+            "last_star_ts": 1670130962,
+            "global_score": 0,
+            "local_score": 600,
+            "id": 1511480,
+            "name": "Christopher Fowler",
+            "stars": 8,
+            "completion_day_level": {
+                "2": {
+                    "2": {
+                        "star_index": 271641,
+                        "get_star_ts": 1669957972
+                    },
+                    "1": {
+                        "star_index": 268479,
+                        "get_star_ts": 1669957776
+                    }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670043935,
+                        "star_index": 575684
+                    },
+                    "2": {
+                        "star_index": 577450,
+                        "get_star_ts": 1670044104
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 5916,
+                        "get_star_ts": 1669871349
+                    },
+                    "1": {
+                        "star_index": 0,
+                        "get_star_ts": 1669871026
+                    }
+                },
+                "4": {
+                    "1": {
+                        "star_index": 845761,
+                        "get_star_ts": 1670130269
+                    },
+                    "2": {
+                        "star_index": 857637,
+                        "get_star_ts": 1670130962
+                    }
+                }
+            }
+        },
+        "2355642": {
+            "local_score": 102,
+            "last_star_ts": 1669939619,
+            "global_score": 0,
+            "name": "Ameya Bhave",
+            "id": 2355642,
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 95914,
-                        "get_star_ts": 1669894391
+                        "get_star_ts": 1669876467,
+                        "star_index": 29293
+                    },
+                    "2": {
+                        "get_star_ts": 1669939619,
+                        "star_index": 242808
                     }
                 }
             },
-            "global_score": 0
+            "stars": 2
+        },
+        "2347680": {
+            "last_star_ts": 0,
+            "global_score": 0,
+            "local_score": 0,
+            "id": 2347680,
+            "name": "Ramya Pradeep",
+            "completion_day_level": {},
+            "stars": 0
+        },
+        "2314420": {
+            "stars": 6,
+            "completion_day_level": {
+                "2": {
+                    "1": {
+                        "get_star_ts": 1669960456,
+                        "star_index": 296390
+                    },
+                    "2": {
+                        "star_index": 306954,
+                        "get_star_ts": 1669962648
+                    }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 617048,
+                        "get_star_ts": 1670050754
+                    },
+                    "2": {
+                        "get_star_ts": 1670052212,
+                        "star_index": 621739
+                    }
+                },
+                "1": {
+                    "2": {
+                        "star_index": 88429,
+                        "get_star_ts": 1669892151
+                    },
+                    "1": {
+                        "get_star_ts": 1669891442,
+                        "star_index": 85928
+                    }
+                }
+            },
+            "id": 2314420,
+            "name": "Jawed Macknojia",
+            "local_score": 339,
+            "global_score": 0,
+            "last_star_ts": 1670052212
         }
     },
+    "event": "2022",
     "owner_id": 1541874
 }
