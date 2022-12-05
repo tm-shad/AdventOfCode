@@ -1,6 +1,5 @@
 from pathlib import Path
 import pandas as pd
-from time import perf_counter
 import json
 from datetime import datetime
 # from collections import defaultdict
@@ -16,10 +15,12 @@ with open(input_path, 'w') as f:
 
 num_players = len(data['members'])
 
+
 def to_timedelta(ts):
     return datetime.utcfromtimestamp(ts) - datetime(year=2022, month=12, day=day, hour=5)
 
-max_day = 5
+
+max_day = 6
 
 dfs = []
 for day in range(1, max_day):
