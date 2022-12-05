@@ -31,7 +31,7 @@ def main(input_path: Path):
 
         e2 = set(range(int(start), int(stop) + 1))
 
-        total += e1.intersection(e2) or e2.issubset(e1)
+        total += e1.issubset(e2) or e2.issubset(e1)
 
     return total
 
