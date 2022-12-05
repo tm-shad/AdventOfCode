@@ -14,7 +14,7 @@ with open(input_path, 'r') as f:
 s = 0
 sets = []
 for line in data:
-    intersect=False
+    intersect = False
     l1, l2 = line.strip().split(',')
     l11, l12 = l1.split('-')
     l21, l22 = l2.split('-')
@@ -37,31 +37,8 @@ for line in data:
     if intersect:
         s += 1
 
-    # o = set([*[i for i in range(l11, l12+1)], *[i for i in range(l21, l22+1)]])
-    # sets.append(o)
-
-# for i, line in enumerate(data):
-#     l1, l2 = line.strip().split(',')
-#     l11, l12 = l1.split('-')
-#     l21, l22 = l2.split('-')
-#     l11 = int(l11)
-#     l12 = int(l12)
-#     l21 = int(l21)
-#     l22 = int(l22)
-
-#     o = set([*[i for i in range(l11, l12+1)], *[i for i in range(l21, l22+1)]])
-
-#     for j in range(len(sets)):
-#         if i == j:
-#             continue
-#         if o.intersection(sets[j]):
-#             s += 1
-#             break
-
 
 print(s)
-
-
 
 time_end = perf_counter()
 print(time_end-time_start)

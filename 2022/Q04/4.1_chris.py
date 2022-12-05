@@ -30,7 +30,5 @@ for line in data:
 
 print(s)
 
-
-
 time_end = perf_counter()
 print(time_end-time_start)
