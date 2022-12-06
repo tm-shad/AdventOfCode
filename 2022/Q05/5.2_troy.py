@@ -52,15 +52,14 @@ def main(input_path: Path):
 
     for m in moves:
         count, q_from, q_to = m
-
-        moved = crates[q_from][-count : len(crates[q_from])]
-        crates[q_from] = crates[q_from][0:-count]
-        crates[q_to] = crates[q_to] + moved
+        
+        crates[q_to] = crates[q_to] + crates[q_from][-count:]
+        crates[q_from] = crates[q_from][:-count]
 
     for q in crates:
-        print(q.pop(), end="")
+        print(q[-1], end="")
 
-    return None
+    return ""
 
 
 if __name__ == "__main__":
