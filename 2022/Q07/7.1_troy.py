@@ -6,113 +6,6 @@ from typing import List, Tuple
 import numpy as np
 
 
-class File:
-    def __init__(self, name, size) -> None:
-        self.name = name
-        self.size = int(size)
-
-    @staticmethod
-    def from_line(line: str):
-        size, name = line.split(" ")
-
-        return File(name=name, size=size)
-
-    def to_string(self, depth=0) -> str:
-        rep_str = " " * 2 * depth + f"- {self.name} (file, size={self.size})\n"
-
-        return rep_str
-
-
-class Dir:
-    def __init__(self, name, subdirs, files) -> None:
-        self.name = name
-        self.subdirs = subdirs
-        self.files = files
-
-    @staticmethod
-    def from_line(line: str):
-        if line.startswith("$ cd "):
-            name = line[len("$ cd ") :]
-        elif line.startswith("dir "):
-            name = line[len("dir ") :]
-
-        return Dir(name, list(), list())
-
-    @staticmethod
-    def from_in_str(lines: str):
-        fs = Dir.from_line(lines.pop(0))
-
-        while len(lines) > 0:
-            line = lines.pop(0)
-            if line == "$ cd ..":
-                break
-            elif line.startswith("$ cd"):
-                subdir, lines = Dir.from_in_str([line] + lines)
-                fs.subdirs.append(subdir)
-            elif line.startswith("$ ls"):
-                files, _, lines = parse_ls(lines)
-                fs.files.extend(files)
-                # fs.subdirs.extend(subdirs)
-
-        return fs, lines
-
-    def to_string(self, depth=0) -> str:
-        rep_str = " " * 2 * depth + f"- {self.name} (dir)\n"
-
-        for d in self.subdirs:
-            rep_str = rep_str + d.to_string(depth=depth + 1)
-
-        for f in self.files:
-            rep_str = rep_str + f.to_string(depth=depth + 1)
-
-        return rep_str
-
-    def get_size(self) -> int:
-        size = 0
-
-        for d in self.subdirs:
-            size += d.get_size()
-
-        for f in self.files:
-            size += f.size
-
-        return size
-
-    def get_limited_size(self) -> List:
-        size = 0
-        valid_sizes = []
-
-        for d in self.subdirs:
-            size += d.get_size()
-            valid_sizes.extend(d.get_limited_size())
-
-        for f in self.files:
-            size += f.size
-        
-        if size < 100000:
-            valid_sizes.append(self)
-
-        return valid_sizes
-
-
-def parse_ls(lines: List[str]) -> Tuple[List[File], List[Dir], List[str]]:
-    files = []
-    dirs = []
-
-    while len(lines) > 0:
-        line = lines.pop(0)
-        if line.startswith("$"):
-            # end of list
-            lines = [line] + lines
-            break
-        elif line.startswith("dir"):
-            dirs.append(Dir.from_line(line))
-        else:
-            files.append(File.from_line(line))
-
-    return files, dirs, lines
-
-
 def read_file(file_path: Path) -> str:
 
     with open(file_path) as f:
@@ -121,14 +14,53 @@ def read_file(file_path: Path) -> str:
     return in_str
 
 
+def get_size(lines):
+    return sum(int(w) for w in ("\n".join(lines)).split() if w.isnumeric())
+
+
+def get_closing_index(lines):
+    open_dirs = 1
+
+    for i in range(len(lines)):
+        if lines[i].startswith("$ cd .."):
+            open_dirs -= 1
+        elif lines[i].startswith("$ cd"):
+            open_dirs += 1
+
+        if open_dirs == 0:
+            break
+
+    return i
+
+
 def main(input_path: Path):
     in_str = read_file(input_path).strip()
-
     lines = in_str.split("\n")
-    filesystem, _ = Dir.from_in_str(lines)
-    print(filesystem.to_string())
+    start = 0
+    sizes = dict()
 
-    return sum(i.get_size() for i in filesystem.get_limited_size())
+    path_prefix = []
+
+    for start in range(len(lines)):
+        line = lines[start]
+        if line.startswith("$ cd"):
+            dir = line[len("$ cd ") :]
+            if dir == "..":
+                path_prefix = path_prefix[:-1]
+                continue
+            else:
+                path_prefix.append(dir)
+            end = start + get_closing_index(lines[start + 1 :]) + 1
+            k = "/".join(path_prefix)
+            assert k not in sizes.keys()
+            sizes[k] = get_size(lines[start : end + 1])
+
+    tot = 0
+    for dir in sizes:
+        if sizes[dir] <= 100000:
+            tot += sizes[dir]
+
+    return tot
 
 
 if __name__ == "__main__":
