@@ -6,8 +6,8 @@ import time
 # from collections import defaultdict
 # from copy import copy
 
-# input_path = Path(f'{__file__}/../input_example.txt').resolve()
-input_path = Path(f'{__file__}/../input_chris.txt').resolve()
+input_path = Path(f'{__file__}/../input_example.txt').resolve()
+# input_path = Path(f'{__file__}/../input_chris.txt').resolve()
 
 time_start = perf_counter()
 
