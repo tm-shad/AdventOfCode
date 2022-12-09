@@ -20,10 +20,10 @@ def to_timedelta(ts):
     return datetime.utcfromtimestamp(ts) - datetime(year=2022, month=12, day=day, hour=5)
 
 
-max_day = 6
+max_day = 9
 
 dfs = []
-for day in range(1, max_day):
+for day in range(1, max_day+1):
     mem_data = []
     for member in data['members'].values():
         if str(day) not in member['completion_day_level'].keys():
