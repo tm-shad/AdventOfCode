@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 import json
-from datetime import datetime
+import datetime
 # from collections import defaultdict
 # from copy import copy
 
@@ -17,10 +17,10 @@ num_players = len(data['members'])
 
 
 def to_timedelta(ts):
-    return datetime.utcfromtimestamp(ts) - datetime(year=2022, month=12, day=day, hour=5)
+    return datetime.datetime.utcfromtimestamp(ts) - datetime.datetime(year=2022, month=12, day=day, hour=5)
 
 
-max_day = 9
+max_day = 11
 
 dfs = []
 for day in range(1, max_day+1):
@@ -39,7 +39,7 @@ for day in range(1, max_day+1):
         ]
 
         d = [*d, d[3]-d[2]]
-        d = [*d[:2], *(str(i) for i in d[2:])]
+        # d = [*d[:2], *(str(i) for i in d[2:])]
         mem_data.append(d)
 
     # mem_data = sorted(mem_data, key=lambda x: x[1], reverse=True)
@@ -66,3 +66,17 @@ df = pd.concat(outs, axis=1)
 print()
 print('Breakdown')
 print(df)
+
+
+outs = []
+for i, df in enumerate(dfs):
+    out = df.loc[df.loc[:, 'DeltaT'] < datetime.timedelta(minutes=1), ['Name', 'T1', 'T2', 'DeltaT']]
+    out['DAY'] = i+1
+    outs.append(out)
+
+df = pd.concat(outs, axis=0).reset_index(drop=True)
+print("Potential Cheaters")
+print(df)
+
+print(df.loc[:, 'Name'].value_counts())
+print(df.loc[:, 'DAY'].value_counts())
