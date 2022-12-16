@@ -15,16 +15,18 @@ time_start = perf_counter()
 with open(input_path, 'r') as f:
     data = f.readlines()
 
+# 2163 too low
+
 flows = {}
 leads = {}
 
 for line in data:
     valve = line.split(' has')[0].split('Valve ')[1]
-    flow = int(line.split('=')[1].split(';')[0])
+    flow1 = int(line.split('=')[1].split(';')[0])
     lead = line.split("valv")[-1].strip()
     lead = [c.strip(',') for c in lead.split(' ')[1:]]
 
-    flows[valve] = flow
+    flows[valve] = flow1
     leads[valve] = lead
     # print(valve, flow, lead)
 
@@ -62,61 +64,36 @@ for k in list(leads.keys()):
         leads.pop(k)
 leads['AA'] = temp_aa
 
-# pprint(leads)
-
-# new_new_leads = dict()
-# while new_new_leads != new_leads:
-# for i in range(10):
-#     new_new_leads = deepcopy(new_leads)
-#     for node, lead in leads.items():
-#         for n, cost in lead.items():
-#             if flows[n] == 0:
-#                 to_join = leads[n]
-#                 temp_new_leads = copy(new_leads[node])
-#                 for new_n, new_cost in to_join.items():
-#                     if new_n == node:
-#                         continue
-#                     if new_n not in temp_new_leads.keys():
-#                         temp_new_leads[new_n] = new_cost+1
-#                         new_leads[new_n][n] = new_cost+1
-#                     else:
-#                         temp_new_leads[new_n] = min([temp_new_leads[new_n], new_cost+1])
-#                         new_leads[new_n][n] = min([temp_new_leads[new_n], new_cost+1])
-#                 new_leads[node] = temp_new_leads
-# leads = deepcopy(new_new_leads)
-# # new_leads = deepcopy(leads)
-# temp_aa = leads['AA']
-# for node in list(leads.keys()):
-#     for n in list(leads[node].keys()):
-#         if flows[n] == 0:
-#             leads[node].pop(n)
-# for node in list(leads.keys()):
-#     if flows[node] == 0:
-#         leads.pop(node)
-#         # if node in temp_aa:
-#         #     temp_aa.pop(node)
-# leads['AA'] = temp_aa
-
-max_time = 30
 flow_keys = list(flows.keys())
 leads_keys = list(leads.keys())
-start_node = 'AA'
-# states = set()
-queue = list()
-queue.append(tuple([0, 0, start_node, tuple()]))
+
 
 def get_idx(node):
     return leads_keys.index(node)
 
-max_flow = 0
+
+start_node = 'AA'
+max_time = 26  # 1327
+max_flow1 = 0
+queue = list()
+queue.append(tuple([0, 0, start_node, set()]))
+
+seen_states = {}
 while queue:
     mins, flow, node, visited = queue.pop()
     flow = flow+flows[node]*(max_time-mins)
     # idx = get_idx(node)
     if mins > max_time:
         continue
-    if flow > max_flow:
-        max_flow = flow
+    if flow > max_flow1:
+        max_flow1 = flow
+
+    vis = tuple(sorted(visited | set([node])))
+    if vis in seen_states.keys():
+        if seen_states[vis] < flow:
+            seen_states[vis] = flow
+    else:
+        seen_states[vis] = flow
 
     for new_node, cost in leads[node].items():
         if new_node in visited:
@@ -127,11 +104,27 @@ while queue:
             mins+cost+1,  # cost to get there *and* turn it on
             flow,
             new_node,
-            (*visited, node)  # visited | set([node])
+            visited | set([node])
         ]))
+# print(max_flow1)
 
-    # print(len(queue))
+# seen_states.pop(tuple('A'))
+# pprint(seen_states)
 
+max_flow = 0
+for state1, flow1 in seen_states.items():
+    # print(state1)
+    state1 = set(state1)
+    if state1:
+        # print(state1)
+        state1.remove(start_node)
+    for state2, flow2 in seen_states.items():
+        state2 = set(state2)
+        if state2:
+            state2.remove(start_node)
+        if not (state1 & state2):
+            if max_flow < flow1+flow2:
+                max_flow = flow1+flow2
 print(max_flow)
 
 time_end = perf_counter()
