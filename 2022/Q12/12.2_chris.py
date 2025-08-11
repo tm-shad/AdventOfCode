@@ -42,7 +42,7 @@ def get_neighbours(x, y):
         (x, y+1),
     ]
 
-print(start, end)
+# print(start, end)
 
 states = set()
 queue = list()
@@ -79,10 +79,10 @@ while queue:
         queue.append((step+1, n))
 
     queue = sorted(queue, key=lambda x: x[0])
-    print(queue)
+    # print(queue)
 
 # pprint(grid)
-pprint(steps)
+# pprint(steps)
 
 print(length)
 

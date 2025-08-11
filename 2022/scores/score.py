@@ -20,7 +20,7 @@ def to_timedelta(ts):
     return datetime.datetime.utcfromtimestamp(ts) - datetime.datetime(year=2022, month=12, day=day, hour=5)
 
 
-max_day = 11
+max_day = 24
 
 dfs = []
 for day in range(1, max_day+1):
@@ -68,15 +68,26 @@ print('Breakdown')
 print(df)
 
 
-outs = []
-for i, df in enumerate(dfs):
-    out = df.loc[df.loc[:, 'DeltaT'] < datetime.timedelta(minutes=1), ['Name', 'T1', 'T2', 'DeltaT']]
-    out['DAY'] = i+1
-    outs.append(out)
+# outs = []
+# for i, df in enumerate(dfs):
+#     out = df.loc[df.loc[:, 'DeltaT'] < datetime.timedelta(minutes=1+0.1*i), ['Name', 'T1', 'T2', 'DeltaT']]
+#     out['DAY'] = i+1
+#     outs.append(out)
 
-df = pd.concat(outs, axis=0).reset_index(drop=True)
-print("Potential Cheaters")
-print(df)
+# df = pd.concat(outs, axis=0).reset_index(drop=True)
+# print("Potential Cheaters")
+# print(df)
 
-print(df.loc[:, 'Name'].value_counts())
-print(df.loc[:, 'DAY'].value_counts())
+# print(df.loc[:, 'Name'].value_counts())
+# print(df.loc[:, 'DAY'].value_counts())
+
+# outs = []
+# for i, df in enumerate(dfs):
+#     if i < 15:
+#         continue
+#     out = df.loc[:, ['Name', 'P1', 'P2']].dropna()
+#     out['DP'] = out['P1'] - out['P2']
+#     outs.append(out)
+
+# df = pd.concat(outs, axis=0).reset_index(drop=True)
+# print(df.groupby('Name').sum().sort_values(by='DP', ascending=True))
